@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{ 
+    height: 100vh;
+    width: 100vw;
+} 
+h1{ 
+    font-size: 2.1rem;
+    color: #1E3A8A; 
+    background-color: rgb(207, 131, 32);
+    text-align: center;
+    padding: 1rem;
+}
+#btn-container{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: brown;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.palette{
+    height: 33.75vh;
+    width: 49.5vw;
+    display: inline-block;
+    margin-left: 0.25vw;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+    color: whitesmoke;
+    margin-top: 0.2rem;
+}
+#btn:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 0px 1px black;
+}
